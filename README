@@ -1,0 +1,7 @@
+First, install docker and make sure it's running.
+
+To open the jupyter notebook run the command below and click on the link:
+
+```bash
+docker-compose up --attach python-tn-exercises
+```

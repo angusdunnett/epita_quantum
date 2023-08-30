@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  python-tn-exercises:
+    build:
+      context: .
+    container_name: python-tn-exercises
+    volumes:
+      - .:/opt/project
+    command: jupyter notebook --allow-root --no-browser --ip 0.0.0.0
+    ports: 
+      - "8888:8888"
