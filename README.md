@@ -8,3 +8,10 @@ To open the jupyter notebook run the command below and click on the link:
 ```bash
 docker-compose up --attach python-tn-exercises
 ```
+
+# Rebuilding the docker image
+To rebuild the docker image following changes to the requirements or Dockerfile:
+
+```bash
+docker-compose build python-tn-exercises
+```
