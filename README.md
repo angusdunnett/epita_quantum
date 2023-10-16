@@ -10,7 +10,7 @@ docker-compose up --attach python-tn-exercises
 ```
 
 # Rebuilding the docker image
-To rebuild the docker image following changes to the requirements or Dockerfile:
+To rebuild the docker image following changes to the requirements or dockerfile:
 
 ```bash
 docker-compose build python-tn-exercises
